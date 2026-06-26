@@ -4,10 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliaverissimo/Atividade-WILLER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliaverissimo/Atividade-WILLER/issues"
+  },
+  "homepage": "https://github.com/juliaverissimo/Atividade-WILLER#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.8.0"
+  }
 }
