@@ -30,6 +30,6 @@ datasource db {
 model Produtos{
   id Int @id @default(autoincrement())
   nome String
-  ctegoria String
+  categoria String
   quantidade Int
 }
